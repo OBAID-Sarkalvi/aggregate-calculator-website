@@ -1,0 +1,63 @@
+        <div class="calculator-wrapper">
+  
+        <div class="powered-tag">POWERED BY</div>
+
+<div class="image-center-wrapper">
+  <img src="Channel LOGO.png" class="grid-image" alt="Channel Logo">
+</div>
+<div class="image-center-wrapper">
+    <strong class="powered-tag">Click below to visit our youtube channel</strong>
+</div>
+<div class="image-center-wrapper">
+  <a href="https://www.youtube.com/@GalaxyOfIntellectuals" target="_blank" rel="noopener noreferrer">
+    <img src="yt.jpg" class="grid-image1" alt="YTLogo">
+  </a>
+</div>
+<center>
+   <h1 class="powered-tag" >Calculator for your Assistance</h1>
+    </center>
+<div class="grid-container">
+    <!-- Answer Area -->
+    <div class="answer-box" id="answerBox"></div>
+
+    <!-- Clear Button -->
+    <button class="grid-item3" onclick="clearAnswer()">CLEAR INPUT</button>
+
+    <!-- Buttons -->
+    <button class="grid-item" onclick="appendValue('7')">7</button>
+    <button class="grid-item" onclick="appendValue('8')">8</button>
+    <button class="grid-item" onclick="appendValue('9')">9</button>
+    <button class="grid-item2" onclick="appendValue('/')">÷</button>
+
+    <button class="grid-item" onclick="appendValue('4')">4</button>
+    <button class="grid-item" onclick="appendValue('5')">5</button>
+    <button class="grid-item" onclick="appendValue('6')">6</button>
+    <button class="grid-item2" onclick="appendValue('*')">×</button>
+
+    <button class="grid-item" onclick="appendValue('1')">1</button>
+    <button class="grid-item" onclick="appendValue('2')">2</button>
+    <button class="grid-item" onclick="appendValue('3')">3</button>
+    <button class="grid-item2" onclick="appendValue('-')">-</button>
+
+    <button class="grid-item" onclick="appendValue('0')">0</button>
+    <button class="grid-item2" onclick="appendValue('.')">.</button>
+    <button class="grid-item2" onclick="appendValue('+')">+</button>
+    <button class="grid-item2" onclick="appendValue('=')">=</button>
+  </div>
+   <h1 class="powered-tag" >About Us</h1>
+ <div class="about-text">
+  <p>
+    This platform is designed to assist university students in accurately calculating
+    their admission aggregates based on their academic grades. As a student myself, I
+    understand the anxiety and curiosity that comes with waiting to know your aggregate
+    score.
+
+    While many institutions offer their own aggregate calculators, this tool stands out for its
+    user-friendly interface and interactive design, making it easier than ever to get quick 
+    and reliable results. Whether you're applying to universities or simply evaluating your 
+    performance, this calculator is built to serve your needs with clarity and convenience.
+  </p>
+</div>
+
+
+</div>

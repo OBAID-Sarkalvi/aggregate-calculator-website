@@ -1,0 +1,140 @@
+.fancy-heading {
+            background-color: #170a77;     /* Green background */
+            color: white;                  /* White text */
+            padding: 20px;                 /* Space inside the box */
+            border-radius: 15px;           /* Rounded corners */
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Drop shadow */
+            text-align: center;            /* Centered text */
+            font-family: 'Segoe UI', sans-serif; /* Modern font */
+            width: 80%;
+            margin: 50px auto;             /* Center horizontally */
+        }
+
+        .submit-design {
+        border-radius: 20px;
+        background-color: #93f2ef;
+        color: black;
+        font-size: 16px;
+        padding: 10px 20px;
+        cursor: pointer;
+        border: 2px solid #170a77;        
+    }
+    .mood-container {
+        color: black;
+    display: grid;
+    grid-template-columns: 100%;  /*Only one column taking full width */
+                      /* Optional spacing between rows */
+    background-color: #47b6e6;
+    border-radius: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 70%;
+    height: 50%;
+}
+
+    .submit-design:hover {
+        background-color: #6dd7db;
+        width: 200px;
+    height: 60px ;
+    }
+        .grid-container {
+            display: grid;
+            grid-template-columns: 30% 65%;
+            gap: 10px;
+        
+        }
+        .left, .right {
+            padding: 10px;
+        }
+        .left {
+            background-color: #198e8aff;
+
+        }
+        .right {
+            background-color: #20138eff;
+            color : #f3e529ff;
+            text-align: center;
+            font-family: 'Segoe UI', sans-serif;
+            font-size : 24px ;
+             border-radius: 100px; 
+        }
+         .input-design {
+        border-radius: 20px;
+        background-color: #35f3ed;
+        color: black;
+        font-size: 16px;
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+        border: 2px solid #170a77;
+    }
+   .mood-selector {
+    width: 350px;
+    margin: 50px auto;              /* Center the div */
+    padding: 30px;
+    border-radius: 15px;
+    background-color: #f9f9f9;      /* Light background just for this section */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+   
+}
+
+.mood-selector h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.mood-selector input[type="range"] {
+    width: 100%;
+    height: 25px;
+    margin-bottom: 0px;
+}
+
+#emoji {
+    font-size: 60px;
+}
+input[type="range"] {
+    width: 300px;  /* Set desired width */
+}
+.center-range {
+    display: block;        /* Allows margin auto to take effect */
+    margin: 0 auto;        /* Centers horizontally */
+    width: 60%;     
+    color : yellow ;       /* Optional: control slider width */
+}
+input[type="range"] {
+    -webkit-appearance: none; /* Removes default styling in Chrome */
+    width: 60%;
+    height: 10px;
+    background: #d3d3d3;
+    border-radius: 5px;
+    outline: none;
+    margin: 10px auto;
+    display: block;
+}
+
+/* Track */
+input[type="range"]::-webkit-slider-runnable-track {
+    height: 10px;
+    background: yellow;   /* Green track */
+    border-radius: 5px;
+}
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    height: 20px;
+    width: 20px;
+    background: rgb(226, 155, 14);   
+    border: 2px solid rgb(226, 155, 14);
+    border-radius: 50%;
+    cursor: pointer;
+    margin-top: -5px; /* aligns thumb with track */
+}
+
+.label-bold {
+    font-weight: bold;
+    font-size: 18px;
+    color: #2c3e50; /* Dark slate blue */
+    font-family: 'Segoe UI', sans-serif;
+    display: block;
+    margin-bottom: 10px;
+}
+
